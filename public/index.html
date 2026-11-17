@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Barbería Premium: cortes, barba y reservas online.">
+  <title>Barbería Premium | Tu estilo, nuestra pasión</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/api.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">BARBERÍA PREMIUM<small>ESTILO • PRECISIÓN • CALIDAD</small></a>
+    <button class="menu-toggle" aria-expanded="false" aria-label="Abrir menú">☰</button>
+    <ul class="nav-links">
+      <li><a class="active" href="index.html">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#opiniones">Opiniones</a></li>
+      <li><a href="reservas.html">Reservar</a></li>
+    </ul>
+    <div class="nav-actions"><a class="btn btn-small btn-outline" href="inicioSesion.html">Ingresar</a></div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container"><div class="hero-content">
+      <span class="eyebrow">Barbería Premium</span>
+      <h1>Tu estilo.<br><span>Nuestra pasión.</span></h1>
+      <p>Un buen corte no es solo apariencia: es confianza, personalidad y atención a cada detalle. Elegí tu servicio y reservá tu próximo turno.</p>
+      <div class="hero-buttons">
+        <a class="btn" href="reservas.html">Reservar un turno</a>
+        <a class="btn btn-outline" href="#servicios">Ver servicios</a>
+      </div>
+    </div></div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-heading"><span class="eyebrow">La experiencia</span><h2>Mucho más que un corte</h2><p>Atención profesional, comodidad y un estilo pensado para vos.</p></div>
+      <div class="grid grid-3">
+        <article class="card card-body"><h3>Turnos organizados</h3><p>Elegí una fecha y consultá los horarios disponibles para evitar esperas.</p></article>
+        <article class="card card-body"><h3>Atención profesional</h3><p>Servicios de barbería con dedicación y cuidado en cada detalle.</p></article>
+        <article class="card card-body"><h3>Tu cuenta personal</h3><p>Consultá tus reservas y mantené tus turnos organizados desde la web.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="servicios">
+    <div class="container">
+      <div class="section-heading"><span class="eyebrow">Nuestros servicios</span><h2>Elegí tu próximo estilo</h2><p>Los precios se podrán actualizar desde el panel de administración.</p></div>
+      <div class="grid grid-3" id="service-list"><p class="notice">Cargando servicios...</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="galeria">
+    <div class="container">
+      <div class="section-heading"><span class="eyebrow">Inspiración</span><h2>Galería de estilos</h2><p>Algunos estilos de referencia. Más adelante pueden reemplazarse por fotos reales de sus trabajos.</p></div>
+      <div class="grid grid-3">
+        <figure class="card gallery-card"><img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=80" alt="Corte degradado masculino"><figcaption>Degradado</figcaption></figure>
+        <figure class="card gallery-card"><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80" alt="Interior de barbería"><figcaption>Experiencia barbería</figcaption></figure>
+        <figure class="card gallery-card"><img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=900&q=80" alt="Herramientas y corte de barbería"><figcaption>Detalles y precisión</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="opiniones">
+    <div class="container">
+      <div class="section-heading"><span class="eyebrow">Experiencias</span><h2>Opiniones de clientes</h2><p>La sección quedará preparada para mostrar opiniones reales una vez conectada la base de datos.</p></div>
+      <div class="card card-body">
+        <p>Las opiniones de los clientes se mostrarán en esta sección cuando sean aprobadas por la administración.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="promo"><span class="eyebrow">Promociones</span><h3>Beneficios y ofertas especiales</h3><p>Las promociones vigentes se publicarán aquí cuando el administrador las cargue. No se muestran descuentos inventados.</p></div>
+    </div>
+  </section>
+
+  <section class="cta-band"><div class="container"><h2>¿Listo para renovar tu estilo?</h2><a class="btn" href="reservas.html">Reservá tu turno</a></div></section>
+</main>
+
+<footer class="site-footer"><div class="container footer-inner"><span>© <span data-current-year>2026</span> Barbería Premium. Todos los derechos reservados.</span><span>Proyecto educativo · 5.º Año</span></div></footer>
+<!-- Reemplazar NUMERO con el WhatsApp real en formato internacional, sin + ni espacios. -->
+
+</body>
+</html>

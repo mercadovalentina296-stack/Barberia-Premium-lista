@@ -1,0 +1,21 @@
+{
+  "name": "barberia-premium",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Sistema web de gestión para Barbería Premium",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js",
+    "dev": "nodemon api/server.js",
+    "check": "node --check api/server.js && node --check api/supabase.js && node --check public/js/main.js && node --check public/js/api.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
